@@ -1,0 +1,50 @@
+/*
+ Theme Name:   Twenty Sixteen Child
+ Theme URI:    http://comweb.cs.ndsu.nodak.edu/~eveggers/comm261/wordpress/
+ Description:  Twenty Sixteen Child Theme
+ Author:       Evan!
+ Author URI:   http://comweb.cs.ndsu.nodak.edu/~eveggers/comm261/wordpress/
+ Template:     twentysixteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentysixteenchild
+*/
+
+/* Honestly, I think I prefer building everything from scratch,
+ * at least for a small site that only I'll be using like this one.
+ * 残念だな～*/
+
+#masthead {
+	background-image: url("img/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 90%;
+}
+
+.site-header-main {
+	background-color: rgba(0,0,0,.5);
+	padding: 2%;
+}
+
+#masthead > div > div.site-branding > h1 > a {
+	font-size: 2rem;
+}
+
+#masthead > div > div.site-branding > p.site-title > a {
+	font-size: 2rem;
+}
+
+.menu-item > a {
+	font-size: 1.25rem;
+	padding: 8px;
+}
+
+#post-105 > footer > span.comments-link {
+	display: none;
+}
+
+.wpcf7-form input, .wpcf7-form textarea {
+	background: #262626;
+	color: white;
+}
